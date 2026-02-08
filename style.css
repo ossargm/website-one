@@ -1,0 +1,6 @@
+css
+/* The default look */
+body { background: white; color: black; transition: 0.5s; }
+
+/* The dark look */
+body.dark-mode { background: #222; color: #f4f4f4; }

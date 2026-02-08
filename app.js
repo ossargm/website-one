@@ -1,3 +1,9 @@
+const btn = document.getElementById('theme-btn');
 
-console.log("my first js app");
-alert("Hello - my first js app!");
+btn.addEventListener('click', () => {
+    // This flips the 'dark-mode' class on or off every click
+    document.body.classList.toggle('dark-mode');
+    
+    // Check the console in Chrome (F12) to see this running!
+    console.log("Theme switched!");
+});
